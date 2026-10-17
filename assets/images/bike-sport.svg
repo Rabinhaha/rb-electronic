@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img">
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#eef0f3"/></linearGradient>
+<linearGradient id="body" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#23262b"/><stop offset=".82" stop-color="#23262b"/><stop offset="1" stop-color="#000" stop-opacity=".25"/></linearGradient>
+<linearGradient id="term" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#9aa0a8"/><stop offset=".5" stop-color="#e3e6ea"/><stop offset="1" stop-color="#8b9199"/></linearGradient>
+<radialGradient id="sh" cx=".5" cy=".5" r=".5"><stop offset="0" stop-color="#000" stop-opacity=".22"/><stop offset="1" stop-color="#000" stop-opacity="0"/></radialGradient>
+</defs>
+<rect width="800" height="600" fill="url(#bg)"/>
+<g transform="translate(620,36) scale(.8)" fill="none" stroke="#c8ccd2" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><circle cx="24" cy="72" r="26"/><circle cx="150" cy="72" r="26"/><path d="M24 72 L70 36 L120 30 L150 72 M70 36 L90 72 H24 M100 30 L130 14 L150 20"/></g>
+<g transform="translate(400 540) scale(1.42) translate(-400 -500)"><ellipse cx="400" cy="505" rx="186.0" ry="22" fill="url(#sh)"/>
+<rect x="250.0" y="308.8" width="300" height="191.2" rx="14" fill="url(#body)"/>
+<rect x="244.0" y="260" width="312" height="52.8" rx="12" fill="#14161a"/>
+<rect x="244.0" y="302.8" width="312" height="10" fill="#000" opacity=".18"/>
+<rect x="266.5" y="238.4" width="39.0" height="27.599999999999998" rx="4" fill="url(#term)"/>
+<rect x="494.5" y="238.4" width="39.0" height="27.599999999999998" rx="4" fill="url(#term)"/>
+<circle cx="286.0" cy="289.04" r="10.56" fill="#d7262d"/>
+<path d="M280.192 289.04h11.616M286.0 283.23199999999997v11.616" stroke="#fff" stroke-width="4" stroke-linecap="round"/>
+<circle cx="514.0" cy="289.04" r="10.56" fill="#1b1d21"/>
+<path d="M508.192 289.04h11.616" stroke="#fff" stroke-width="4" stroke-linecap="round"/>
+<rect x="280.0" y="341.6" width="240.0" height="124.80000000000001" rx="10" fill="#31353b"/>
+<rect x="280.0" y="341.6" width="240.0" height="24.0" rx="10" fill="#d7262d"/>
+<rect x="280.0" y="353.6" width="240.0" height="12.0" fill="#d7262d"/>
+<path d="M408.0 380.0 l-34 44 h26 l-12 40 l40 -52 h-26 z" fill="#d7262d"/>
+<rect x="310.0" y="440.0" width="180.0" height="8" rx="4" fill="#ffffff" opacity=".55"/>
+<rect x="340.0" y="458.0" width="120.0" height="8" rx="4" fill="#ffffff" opacity=".35"/>
+</g></svg>
