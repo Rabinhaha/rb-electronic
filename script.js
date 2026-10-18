@@ -40,7 +40,7 @@
   });
 
   window.addEventListener('resize', function () {
-    if (window.innerWidth > 980 && nav.classList.contains('is-open')) setMenu(false);
+    if (window.innerWidth > 1240 && nav.classList.contains('is-open')) setMenu(false);
   });
 
   /* ---------- Smooth scrolling for in-page links ---------- */
@@ -150,7 +150,7 @@
       }
 
       var lines = [
-        'Hello R&B Electronic, I would like to ask about Exide battery availability and compatibility for my vehicle.',
+        'Hello R.B. Electric And Electronics, I would like to ask about Exide battery availability and compatibility for my vehicle.',
         '',
         'Vehicle type: ' + fields.type.el.value.trim(),
         'Make: ' + fields.make.el.value.trim(),
