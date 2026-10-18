@@ -289,12 +289,16 @@ ul, ol { margin: 0; padding: 0; list-style: none; }
 
 /* ---------- About ---------- */
 .about-grid { display: grid; grid-template-columns: 1fr 1fr; gap: clamp(32px, 6vw, 72px); align-items: center; }
-.about-media { position: relative; margin: 0; }
+.about-media { position: relative; margin: 0; width: 100%; max-width: 480px; justify-self: center; }
 .about-media::before {
   content: ""; position: absolute; inset: 24px -16px -16px 24px; border-radius: var(--radius-lg);
   background: var(--red); z-index: -1;
 }
-.about-media img { border-radius: var(--radius-lg); width: 100%; aspect-ratio: 4 / 3; object-fit: cover; box-shadow: var(--shadow-lg); }
+.about-media img { border-radius: var(--radius-lg); width: 100%; aspect-ratio: 870 / 960; object-fit: cover; box-shadow: var(--shadow-lg); }
+.about-media figcaption {
+  position: absolute; left: 16px; bottom: 16px; padding: 6px 12px; border-radius: 999px;
+  background: rgba(21,23,27,.8); color: #fff; font-size: .8rem; font-weight: 600;
+}
 .about-grid { position: relative; z-index: 0; }
 .about-copy > p { font-size: 1.05rem; }
 .about-points { display: grid; gap: 10px; margin: 0 0 28px; }
@@ -430,7 +434,7 @@ img.img-failed { object-fit: contain !important; background: var(--bg-alt); }
   .hero-visual { max-width: 640px; }
   .card-grid { grid-template-columns: repeat(2, 1fr); }
   .about-grid, .contact-grid { grid-template-columns: 1fr; }
-  .about-media { max-width: 640px; }
+  .about-media { max-width: 520px; }
   .footer-grid { grid-template-columns: 1fr 1fr; }
   .footer-brand { grid-column: 1 / -1; }
 }
